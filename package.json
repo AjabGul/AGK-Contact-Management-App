@@ -8,21 +8,21 @@
     "client": "npm start --prefix client",
     "clientinstall": "npm install --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuil" : "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "license": "MIT",
   "description": "Contact Manager App",
   "author": {
-    "name": "Ajab Gul",
+    "name": "Ajab",
     "phone": "03032564213"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "express": "^4.17.1",
     "config": "^3.3.6",
+    "express": "^4.17.1",
     "express-validator": "^6.10.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.12.3"
+    "mongoose": "^5.12.1"
   },
   "devDependencies": {
     "concurrently": "^6.0.0",
